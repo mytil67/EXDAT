@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "description": "Mapping des écoles de l'Eurométropole de Strasbourg",
+  "date_created": "2025-01-22",
+  "author": "Direction de l'Education - Eurométropole de Strasbourg",
+  
+  "replacements": [
+    {"pattern": "\\bSTE\\b", "replace": "SAINTE"},
+    {"pattern": "\\bST\\b", "replace": "SAINT"},
+    {"pattern": "MATERNELLEELEMENTAIRE", "replace": "MATERNELLE ELEMENTAIRE"},
+    {"pattern": "ELEMENTAIREMATERNELLE", "replace": "ELEMENTAIRE MATERNELLE"},
+    {"pattern": "\\bMAT\\b", "replace": "MATERNELLE"},
+    {"pattern": "\\bELEM\\b", "replace": "ELEMENTAIRE"},
+    {"pattern": "\\bELE\\b", "replace": "ELEMENTAIRE"},
+    {"pattern": "\\bECOLE\\b", "replace":"},
+    {"pattern": "\\bCANTINE SCOLAIRE\\b", "replace": ""},
+    {"pattern": "\\bRESTAURATION\\b", "replace": ""},
+    {"pattern": "\\+", "replace": " "},
+    {"pattern": "\\bET\\b", "replace": ""},
+    {"pattern": "\\s+", "replace": " "}
+  ],
+  
+  "mappings": {
+    "_comment": "Exemples de correspondances - A adapter selon vos besoins",
+    
+    "STE AURELIE MAT": "SAINTE AURELIE",
+    "SAINTE AURELIE MATERNELLE": "SAINTE AURELIE",
+    "STE AURELIE": "SAINTE AURELIE",
+    
+    "CAMILLE CLAUS MAT": "CAMILLE CLAUS",
+    "CAMILLE CLAUS MATERNELLE": "CAMILLE CLAUS",
+    
+    "JEAN FISCHART ELEM": "JEAN FISCHART",
+    "JEAN FISCHART ELEMENTAIRE": "JEAN FISCHART",
+    
+    "HOHBERG MAT": "HOHBERG",
+    "HOHBERG MATERNELLE": "HOHBERG",
+    
+    "LANGEVIN MAT": "LANGEVIN",
+    "PAUL LANGEVIN MATERNELLE": "LANGEVIN",
+    
+    "JACQUELINE MAT": "JACQUELINE",
+    "JACQUELINE MATERNELLE": "JACQUELINE",
+    
+    "AMPERE MAT": "AMPERE",
+    "AMPERE MATERNELLE": "AMPERE",
+    
+    "REUSS MAT": "REUSS",
+    "REUSS MATERNELLE": "REUSS",
+    
+    "CONSEIL DES XV MAT": "CONSEIL DES XV",
+    "CONSEIL DES XV MATERNELLE": "CONSEIL DES XV",
+    
+    "KARINE MAT": "KARINE",
+    "KARINE MATERNELLE": "KARINE",
+    
+    "MUNICIPAL MAT": "MUNICIPAL",
+    "MUNICIPAL MATERNELLE": "MUNICIPAL",
+    
+    "SCHEIDFELD MAT": "SCHEIDFELD",
+    "SCHEIDFELD MATERNELLE": "SCHEIDFELD"
+  },
+  
+  "notes": [
+    "Ce fichier est un exemple de base",
+    "Complétez avec vos propres correspondances",
+    "Les mappings sont appliqués APRÈS les replacements",
+    "Les clés doivent être en MAJUSCULES et sans accents",
+    "Utilisez l'éditeur de mapping dans l'application pour faciliter la création"
+  ]
+}
